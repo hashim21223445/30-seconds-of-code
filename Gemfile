@@ -18,7 +18,7 @@ gem 'puma', '>= 5.0'
 gem 'importmap-rails'
 
 # Use Dart SASS [https://github.com/rails/dartsass-rails]
-gem 'dartsass-rails'
+gem 'dartsass-rails', '>= 0.5.1'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
