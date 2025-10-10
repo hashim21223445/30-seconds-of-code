@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '3.3.3'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem 'rails', '~> 7.1.5', '>= 7.1.5.2'
+gem 'rails', '~> 8.0.0'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem 'sprockets-rails', '>= 3.5.2'
@@ -15,7 +15,7 @@ gem 'sqlite3', '~> 1.4'
 gem 'puma', '>= 5.0'
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
-gem 'importmap-rails'
+gem 'importmap-rails', '>= 2.0.2'
 
 # Use Dart SASS [https://github.com/rails/dartsass-rails]
 gem 'dartsass-rails', '>= 0.5.1'
@@ -43,7 +43,7 @@ group :development, :test do
   gem 'debug', platforms: [:mri, :windows]
 
   # Fixtures replacement
-  gem 'factory_bot_rails', '~> 6.4'
+  gem 'factory_bot_rails', '~> 6.4', '>= 6.4.4'
 end
 
 group :development do
@@ -58,7 +58,7 @@ group :development do
 
   # Test suite
   gem 'rspec'
-  gem 'rspec-rails'
+  gem 'rspec-rails', '>= 6.1.4'
 
   # Linting
   gem 'rubocop', '>= 1.66.0'
