@@ -7,7 +7,7 @@
   "author": "chalarangelo",
   "type": "module",
   "devDependencies": {
-    "astro": "^5.13.10",
+    "astro": "^5.14.3",
     "eslint": "^9.1.0",
     "eslint-config-prettier": "^10.1.8",
     "front-matter": "^4.0.2",
@@ -28,7 +28,7 @@
     "unified": "^11.0.4",
     "unist-util-visit": "^5.0.0",
     "unist-util-visit-parents": "^6.0.1",
-    "vitest": "^2.1.9"
+    "vitest": "^4.0.7"
   },
   "imports": {
     "#parsley": ["./parsley/parsley.js"],
